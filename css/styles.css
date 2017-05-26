@@ -21,7 +21,7 @@ body {
     }
 
 .no-js #experience-timeline > div {
-    background: #fff;
+    background: #DFCBBB;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #dcd9d9;
@@ -96,7 +96,7 @@ header {
 
     header ul {
         display: inline-block;
-        background: #fff;
+        background: #C9BB9D;
         text-align: center;
         padding: 10px;
         margin: 0;
@@ -110,19 +110,19 @@ header {
 
     header a {
         display: block;
-        color: #3498db;
+        color: #457562;
         padding: 10px;
     }
 
         header a:hover {
-            color: #217dbb;
+            color: #C9BEA4;
             text-decoration: none;
             background: #eee;
             border-radius: 4px;
         }
 
         header a:focus {
-            color: #3498db;
+            color: #457562;
             text-decoration: none;
         }
 
@@ -233,9 +233,9 @@ footer {
 
 .btn-rounded-white {
     display: inline-block;
-    color: #fff;
+    color: #90815F;
     padding: 15px 25px;
-    border: 3px solid #fff;
+    border: 3px solid #90815F;
     border-radius: 30px;
     -webkit-transition: .5s ease all;
     transition: .5s ease all;
@@ -284,7 +284,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: url(../images/cvnp.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -302,10 +302,11 @@ footer {
 
     #lead-content h1, #lead-content h2 {
         margin: 0;
+       
     }
 
     #lead-content h1 {
-        color: #fff;
+        color: #796435;
         font-weight: 900;
         font-size: 5em;
         text-transform: uppercase;
@@ -314,7 +315,7 @@ footer {
     }
 
     #lead-content h2 {
-        color: #a0cfee;
+        color: #457562;
         font-weight: 500;
         font-size: 2.25em;
         margin-bottom: 15px;
@@ -328,7 +329,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(33,125,187,0.8);
+    background: #7fac99;
     z-index: 1;
 }
 
@@ -340,7 +341,7 @@ footer {
     text-align: center;
     z-index: 10;
     bottom: 15px;
-    color: #fff;
+    color: ##90815F;
 }
 
     #lead-down span {
@@ -350,7 +351,7 @@ footer {
         width: 35px;
         height: 35px;
         border-radius: 50%;
-        border: 3px solid #a0cfee;
+        border: 3px solid #688C7D;
         text-align: center;
     }
 
@@ -399,6 +400,8 @@ footer {
 #about {
     padding: 75px 15px;
     border-bottom: 1px solid #dcd9d9;
+    background-color: 
+
 }
 
     #about h2 {
@@ -406,7 +409,7 @@ footer {
     }
 
     #about p {
-        color: #74808a;
+        color: #796435;
         margin: 0;
     }
 
@@ -435,7 +438,7 @@ footer {
         right: auto;
         height: 100%;
         width: 3px;
-        background: #3498db;
+        background: #AC9E7F;
         z-index: 0;
     }
 
