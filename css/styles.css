@@ -284,11 +284,12 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(.../images/Backgroundtree.jpg);
+    background: url(../images/Backgroundtree.jpg) ;
+    background:#7fac99;
     background-size: cover;
     padding: 15px;
     overflow: hidden;
-}
+   }
 
 #lead-content {
     position: absolute;
@@ -298,15 +299,15 @@ footer {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-    font-family:'Arial Rounded MT'
-}
+    font-family:'Arial Rounded MT';
+   }
 
-/*#lead-content #lead-background{
-     background: transparent url("yourimage.png") no-repeat top center fixed;
- 
+#lead-content #lead-background{
+     background: transparent url("'../images/Backgroundtree.jpg") no-repeat top center fixed;
+  /*opacity: 0.2; filter: alpha(opacity=20);*/
   background-size: 100%;
   height: 500px;
-}*/
+}
 
     #lead-content h1, #lead-content h2 {
         margin: 0;
@@ -336,7 +337,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background:rgba(12,90,62,0.8);
+    background:#7fac99(op);
     z-index: 1;
 }
 
